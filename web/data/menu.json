@@ -11,7 +11,7 @@
     "zip": "21002 Huelva",
     "order": "https://cloudclient29.hiopos.com/portalrest/?id=55037&idRest=233891&m=2&ask=0",
     "allowOrder": true,
-    "maps": "https://maps.google.com/?q=Pizzeria+Huracanes+San+Jose+Huelva"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Huracanes%20Pizzer%C3%ADa%20San%20Jos%C3%A9%2C%20Calle%20San%20Jos%C3%A9%2039%2C%2021002%20Huelva"
    },
    {
     "id": "punta",
@@ -20,7 +20,7 @@
     "zip": "21100 Punta Umbría",
     "order": "https://cloudclient37.hiopos.com/portalrest/?id=10988&idRest=110136&m=2&ask=0",
     "allowOrder": true,
-    "maps": "https://maps.google.com/?q=Pizzeria+Huracanes+Punta+Umbria"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Pizzer%C3%ADa%20Huracanes%2C%20Punta%20Umbr%C3%ADa%2C%20Huelva"
    }
   ]
  },
