@@ -81,13 +81,19 @@ a { color: inherit; text-decoration: none; }
   position: sticky; top: 0; z-index: 60;
   height: var(--header-h);
   display: flex; align-items: center;
-  background: color-mix(in srgb, var(--surface) 82%, transparent);
+  background: color-mix(in srgb, var(--brand-red) 90%, transparent);
   backdrop-filter: saturate(160%) blur(14px);
   -webkit-backdrop-filter: saturate(160%) blur(14px);
   border-bottom: 1px solid transparent;
   transition: border-color .3s, box-shadow .3s;
 }
-.header.scrolled { border-bottom-color: var(--line); box-shadow: var(--shadow); }
+.header.scrolled { border-bottom-color: rgba(255,255,255,.14); box-shadow: 0 6px 22px rgba(0,0,0,.22); }
+/* Contenido del header sobre fondo rojo */
+.header .brand-name b { color: #fff; -webkit-text-fill-color: #fff; background: none; }
+.header .brand-name span { color: rgba(255,255,255,.78); }
+.header .icon-btn { color: rgba(255,255,255,.9); }
+.header .icon-btn:hover { background: rgba(255,255,255,.15); color: #fff; }
+.header .cart-count { background: var(--yellow); color: #7a0f0f; }
 .header .wrap { display: flex; align-items: center; gap: 12px; width: 100%; }
 .brand { display: flex; align-items: center; gap: 9px; font-weight: 800; }
 .brand img { height: 34px; width: auto; }
