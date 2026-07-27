@@ -9,6 +9,8 @@
   --red: #ec2027;
   --orange: #f7911e;
   --yellow: #ffcb05;
+  --brand-red: #9e1010;
+  --brand-red-2: #c2181a;
   --grad-hurricane: linear-gradient(100deg, var(--red) 0%, var(--orange) 45%, var(--yellow) 100%);
   --grad-cyan: linear-gradient(135deg, #1fd1e3 0%, #0e9fb0 100%);
 
@@ -305,16 +307,22 @@ a { color: inherit; text-decoration: none; }
 .fcard-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 10px; }
 
 /* ---------- Historia / storytelling ---------- */
-.story { background: var(--surface); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow); display: grid; }
+.story {
+  border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); display: grid;
+  background: var(--brand-red);
+  background-image: radial-gradient(130% 120% at 0% 0%, var(--brand-red-2) 0%, var(--brand-red) 60%);
+}
 @media (min-width: 780px) { .story { grid-template-columns: 1.05fr 1fr; } }
 .story-media { min-height: 240px; position: relative; }
 .story-media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-.story-body { padding: 30px 26px; }
-.story-body h2 { font-size: clamp(24px, 6vw, 32px); font-weight: 800; letter-spacing: -.4px; }
-.story-body p { color: var(--ink-soft); margin-top: 12px; font-size: 15px; }
-.story-stats { display: flex; gap: 26px; margin-top: 22px; flex-wrap: wrap; }
-.stat b { display: block; font-size: 28px; font-weight: 800; background: var(--grad-hurricane); -webkit-background-clip: text; background-clip: text; color: transparent; line-height: 1; }
-.stat span { font-size: 12.5px; color: var(--ink-faint); font-weight: 600; }
+.story-body { padding: 32px 28px; color: #fff; }
+.story-body .eyebrow { color: var(--yellow); }
+.story-body h2 { font-size: clamp(24px, 6vw, 32px); font-weight: 800; letter-spacing: -.4px; color: #fff; }
+.story-body p { color: rgba(255,255,255,.85); margin-top: 12px; font-size: 15px; }
+.story-body p b { color: #fff; }
+.story-stats { display: flex; gap: 26px; margin-top: 24px; flex-wrap: wrap; }
+.stat b { display: block; font-size: 30px; font-weight: 800; background: linear-gradient(100deg, #fff 0%, var(--yellow) 100%); -webkit-background-clip: text; background-clip: text; color: transparent; line-height: 1; }
+.stat span { font-size: 12.5px; color: rgba(255,255,255,.7); font-weight: 600; }
 
 /* ---------- Locales ---------- */
 .locations-grid { display: grid; gap: 14px; }
@@ -336,16 +344,22 @@ a { color: inherit; text-decoration: none; }
 .vcard p { color: var(--ink-soft); font-size: 13px; margin-top: 5px; }
 
 /* ---------- Footer ---------- */
-.footer { background: var(--surface); border-top: 1px solid var(--line); padding: 40px 0 120px; margin-top: 30px; }
+.footer {
+  background: var(--brand-red);
+  background-image: radial-gradient(120% 100% at 100% 0%, var(--brand-red-2) 0%, var(--brand-red) 55%);
+  color: #fff; padding: 44px 0 120px; margin-top: 30px;
+}
 .footer-grid { display: grid; gap: 26px; grid-template-columns: 1fr; }
 @media (min-width: 720px) { .footer-grid { grid-template-columns: 1.4fr 1fr 1fr; } }
 .footer .brand img { height: 44px; }
-.footer p { color: var(--ink-soft); font-size: 14px; margin-top: 12px; max-width: 34ch; }
-.footer h5 { font-size: 12px; letter-spacing: 2px; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 12px; }
+.footer .brand-name b { color: #fff; -webkit-text-fill-color: #fff; }
+.footer .brand-name span { color: rgba(255,255,255,.75); }
+.footer p { color: rgba(255,255,255,.82); font-size: 14px; margin-top: 12px; max-width: 34ch; }
+.footer h5 { font-size: 12px; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,.6); margin-bottom: 12px; }
 .footer ul { list-style: none; display: flex; flex-direction: column; gap: 9px; }
-.footer ul a { color: var(--ink-soft); font-size: 14.5px; }
-.footer ul a:hover { color: var(--cyan-deep); }
-.footer-bottom { border-top: 1px solid var(--line); margin-top: 30px; padding-top: 18px; display: flex; flex-wrap: wrap; gap: 8px 18px; justify-content: space-between; color: var(--ink-faint); font-size: 12.5px; }
+.footer ul a { color: rgba(255,255,255,.85); font-size: 14.5px; transition: color .2s; }
+.footer ul a:hover { color: var(--yellow); }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,.16); margin-top: 30px; padding-top: 18px; display: flex; flex-wrap: wrap; gap: 8px 18px; justify-content: space-between; color: rgba(255,255,255,.6); font-size: 12.5px; }
 
 /* ---------- Bottom bar móvil ---------- */
 .bottombar {
