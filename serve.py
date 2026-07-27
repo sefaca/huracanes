@@ -3,7 +3,7 @@
 import http.server, socketserver, os
 
 PORT = 8080
-os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), "web"))
+os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs"))
 
 class NoCacheHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):

@@ -10,7 +10,7 @@ núcleo) y añadiendo experiencia de pedido, marca y funciones pensadas para el 
 
 Requiere Python instalado. Alternativa sin scripts:
 ```powershell
-cd web
+cd docs
 python -m http.server 8080
 ```
 
@@ -30,7 +30,7 @@ python -m http.server 8080
 ## Estructura
 
 ```
-web/
+docs/
   index.html            Página principal
   css/styles.css        Diseño (sistema de marca, claro/oscuro)
   js/app.js             Carta, buscador, filtros, carrito, pedido
@@ -43,7 +43,7 @@ assets/                 Datos crudos extraídos del portal (referencia)
 
 ## Editar la carta
 
-Todo sale de `web/data/menu.json`: precios, descripciones, alérgenos, tamaños y disponibilidad.
+Todo sale de `docs/data/menu.json`: precios, descripciones, alérgenos, tamaños y disponibilidad.
 Cambiar un precio o marcar un plato agotado es editar ese archivo (o regenerarlo desde HioPOS).
 
 ## Pendiente de configurar por el propietario
