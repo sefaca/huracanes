@@ -1,0 +1,14 @@
+# Material crudo de extracción (no necesario para ejecutar la web)
+/assets/
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Dependencias / temporales
+node_modules/
+__pycache__/
+*.pyc
+.vscode/

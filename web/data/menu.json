@@ -1,0 +1,2453 @@
+{
+ "restaurant": {
+  "name": "Pizzerías Huracanes",
+  "phone": "959 101 100",
+  "phoneRaw": "959101100",
+  "locations": [
+   {
+    "id": "sanjose",
+    "name": "San José · Huelva",
+    "address": "C/ San José, 39",
+    "zip": "21002 Huelva",
+    "order": "https://cloudclient29.hiopos.com/portalrest/?id=55037&idRest=233891&m=2&ask=0",
+    "allowOrder": true,
+    "maps": "https://maps.google.com/?q=Pizzeria+Huracanes+San+Jose+Huelva"
+   },
+   {
+    "id": "punta",
+    "name": "Punta Umbría",
+    "address": "C/ Ronda del Foro, 1G",
+    "zip": "21100 Punta Umbría",
+    "order": "https://cloudclient37.hiopos.com/portalrest/?id=10988&idRest=110136&m=2&ask=0",
+    "allowOrder": true,
+    "maps": "https://maps.google.com/?q=Pizzeria+Huracanes+Punta+Umbria"
+   }
+  ]
+ },
+ "allergenLegend": [
+  {
+   "key": "gluten",
+   "name": "Gluten",
+   "icon": "🌾"
+  },
+  {
+   "key": "crustaceos",
+   "name": "Crustáceos",
+   "icon": "🦐"
+  },
+  {
+   "key": "huevos",
+   "name": "Huevos",
+   "icon": "🥚"
+  },
+  {
+   "key": "pescado",
+   "name": "Pescado",
+   "icon": "🐟"
+  },
+  {
+   "key": "cacahuetes",
+   "name": "Cacahuetes",
+   "icon": "🥜"
+  },
+  {
+   "key": "soja",
+   "name": "Soja",
+   "icon": "🫘"
+  },
+  {
+   "key": "lacteos",
+   "name": "Lácteos",
+   "icon": "🥛"
+  },
+  {
+   "key": "frutos_cascara",
+   "name": "Frutos de cáscara",
+   "icon": "🌰"
+  },
+  {
+   "key": "apio",
+   "name": "Apio",
+   "icon": "🥬"
+  },
+  {
+   "key": "mostaza",
+   "name": "Mostaza",
+   "icon": "🌭"
+  },
+  {
+   "key": "sesamo",
+   "name": "Sésamo",
+   "icon": "◦"
+  },
+  {
+   "key": "sulfitos",
+   "name": "Sulfitos",
+   "icon": "🍷"
+  },
+  {
+   "key": "altramuces",
+   "name": "Altramuces",
+   "icon": "🌱"
+  },
+  {
+   "key": "moluscos",
+   "name": "Moluscos",
+   "icon": "🐚"
+  }
+ ],
+ "categories": [
+  {
+   "id": "pizzas",
+   "name": "Pizzas",
+   "emoji": "🍕",
+   "image": null,
+   "type": "pizza",
+   "items": [
+    {
+     "id": "pizza-0",
+     "name": "Margarita",
+     "description": "Tomate especiado y queso (base)",
+     "allergens": [
+      "gluten",
+      "lacteos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 7.1,
+       "txtPrice": "7,10€",
+       "productId": 10137
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 9.7,
+       "txtPrice": "9,70€",
+       "productId": 10168
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 16.1,
+       "txtPrice": "16,10€",
+       "productId": 10199
+      }
+     ],
+     "image": "assets/productos/10137.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-1",
+     "name": "Prosciutto",
+     "description": "Base y york",
+     "allergens": [
+      "gluten",
+      "soja",
+      "lacteos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 7.9,
+       "txtPrice": "7,90€",
+       "productId": 10138
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 10.9,
+       "txtPrice": "10,90€",
+       "productId": 10169
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 18.2,
+       "txtPrice": "18,20€",
+       "productId": 10200
+      }
+     ],
+     "image": "assets/productos/10138.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-2",
+     "name": "Pepperoni",
+     "description": "Base, pepperoni y salchichas",
+     "allergens": [
+      "gluten",
+      "soja",
+      "lacteos",
+      "mostaza"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 7.9,
+       "txtPrice": "7,90€",
+       "productId": 10139
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 10.9,
+       "txtPrice": "10,90€",
+       "productId": 10170
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 18.2,
+       "txtPrice": "18,20€",
+       "productId": 10201
+      }
+     ],
+     "image": "assets/productos/10139.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-3",
+     "name": "Romana",
+     "description": "Base y atún",
+     "allergens": [
+      "gluten",
+      "lacteos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 7.9,
+       "txtPrice": "7,90€",
+       "productId": 10140
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 10.9,
+       "txtPrice": "10,90€",
+       "productId": 10171
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 18.2,
+       "txtPrice": "18,20€",
+       "productId": 10202
+      }
+     ],
+     "image": "assets/productos/10140.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-4",
+     "name": "Trattoria",
+     "description": "Base, champiñón y atún",
+     "allergens": [
+      "gluten",
+      "pescado",
+      "lacteos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 7.9,
+       "txtPrice": "7,90€",
+       "productId": 10141
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 10.9,
+       "txtPrice": "10,90€",
+       "productId": 10172
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 18.2,
+       "txtPrice": "18,20€",
+       "productId": 10203
+      }
+     ],
+     "image": "assets/productos/10141.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-5",
+     "name": "Bacon",
+     "description": "Base, bacon y pollo",
+     "allergens": [
+      "gluten",
+      "soja",
+      "lacteos",
+      "sulfitos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 7.9,
+       "txtPrice": "7,90€",
+       "productId": 10142
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 10.9,
+       "txtPrice": "10,90€",
+       "productId": 10173
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 18.2,
+       "txtPrice": "18,20€",
+       "productId": 10204
+      }
+     ],
+     "image": "assets/productos/10142.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-6",
+     "name": "Bella Napoli",
+     "description": "Tomate especiado, pepperoni, huevo y gouda",
+     "allergens": [
+      "gluten",
+      "huevos",
+      "soja",
+      "lacteos",
+      "mostaza"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 7.9,
+       "txtPrice": "7,90€",
+       "productId": 10143
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 10.9,
+       "txtPrice": "10,90€",
+       "productId": 10174
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 18.2,
+       "txtPrice": "18,20€",
+       "productId": 10205
+      }
+     ],
+     "image": "assets/productos/10143.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-7",
+     "name": "Frankfurt",
+     "description": "Tomate frito, huevo, salchicha y mozzarella",
+     "allergens": [
+      "gluten",
+      "huevos",
+      "soja",
+      "lacteos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 7.9,
+       "txtPrice": "7,90€",
+       "productId": 10144
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 10.9,
+       "txtPrice": "10,90€",
+       "productId": 10175
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 18.2,
+       "txtPrice": "18,20€",
+       "productId": 10206
+      }
+     ],
+     "image": "assets/productos/10144.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-8",
+     "name": "Andaluza",
+     "description": "Base, champiñón, tomate natural, pimienta verde, cebolla y espárragos",
+     "allergens": [
+      "gluten",
+      "lacteos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 8.6,
+       "txtPrice": "8,60€",
+       "productId": 10145
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 11.8,
+       "txtPrice": "11,80€",
+       "productId": 10176
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 20.5,
+       "txtPrice": "20,50€",
+       "productId": 10207
+      }
+     ],
+     "image": "assets/productos/10145.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-9",
+     "name": "Bologna",
+     "description": "Base y carne",
+     "allergens": [
+      "gluten",
+      "soja",
+      "lacteos",
+      "mostaza"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 7.9,
+       "txtPrice": "7,90€",
+       "productId": 10146
+      }
+     ],
+     "image": "assets/productos/10146.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-10",
+     "name": "Gondola",
+     "description": "Base, york y roqueford",
+     "allergens": [
+      "gluten",
+      "soja",
+      "lacteos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 7.9,
+       "txtPrice": "7,90€",
+       "productId": 10147
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 10.9,
+       "txtPrice": "10,90€",
+       "productId": 10178
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 18.2,
+       "txtPrice": "18,20€",
+       "productId": 10209
+      }
+     ],
+     "image": "assets/productos/10147.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-11",
+     "name": "Bianca",
+     "description": "Nata, pimienta negra, orégano, bacon y mozzarella",
+     "allergens": [
+      "gluten",
+      "soja",
+      "lacteos",
+      "sulfitos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 8.6,
+       "txtPrice": "8,60€",
+       "productId": 10148
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 11.8,
+       "txtPrice": "11,80€",
+       "productId": 10179
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 20.5,
+       "txtPrice": "20,50€",
+       "productId": 10210
+      }
+     ],
+     "image": "assets/productos/10148.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-12",
+     "name": "Hawaiana",
+     "description": "Base, york, maiz y piña",
+     "allergens": [
+      "gluten",
+      "soja",
+      "lacteos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 8.6,
+       "txtPrice": "8,60€",
+       "productId": 10149
+      }
+     ],
+     "image": "assets/productos/10149.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-13",
+     "name": "Serrana",
+     "description": "Base, chorizo y jamon serrano",
+     "allergens": [
+      "gluten",
+      "soja",
+      "lacteos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 8.6,
+       "txtPrice": "8,60€",
+       "productId": 10150
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 11.8,
+       "txtPrice": "11,80€",
+       "productId": 10181
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 20.5,
+       "txtPrice": "20,50€",
+       "productId": 10212
+      }
+     ],
+     "image": "assets/productos/10150.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-14",
+     "name": "Reina",
+     "description": "Nata, aceite de ajo, cebolla, bacon, pollo, pimiento morrón y mozzarella",
+     "allergens": [
+      "gluten",
+      "soja",
+      "lacteos",
+      "sulfitos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 9.3,
+       "txtPrice": "9,30€",
+       "productId": 10151
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 13.0,
+       "txtPrice": "13,00€",
+       "productId": 10182
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 21.6,
+       "txtPrice": "21,60€",
+       "productId": 10213
+      }
+     ],
+     "image": "assets/productos/10151.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-15",
+     "name": "Las Mareas",
+     "description": "Base, atún, anchoas, aceitunas negras y gambas",
+     "allergens": [
+      "gluten",
+      "crustaceos",
+      "pescado",
+      "lacteos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 9.3,
+       "txtPrice": "9,30€",
+       "productId": 10152
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 13.0,
+       "txtPrice": "13,00€",
+       "productId": 10183
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 21.6,
+       "txtPrice": "21,60€",
+       "productId": 10214
+      }
+     ],
+     "image": "assets/productos/10152.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-16",
+     "name": "Umbria",
+     "description": "Tomate frito, cebolla, pimiento verde, bacon, pimiento morrón y mozzarella",
+     "allergens": [
+      "gluten",
+      "soja",
+      "lacteos",
+      "sulfitos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 8.6,
+       "txtPrice": "8,60€",
+       "productId": 10153
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 11.8,
+       "txtPrice": "11,80€",
+       "productId": 10184
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 20.5,
+       "txtPrice": "20,50€",
+       "productId": 10215
+      }
+     ],
+     "image": "assets/productos/10153.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-17",
+     "name": "Cuatro Estaciones",
+     "description": "Base, champiñones, york, atún y chorizo",
+     "allergens": [
+      "gluten",
+      "pescado",
+      "soja",
+      "lacteos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 9.3,
+       "txtPrice": "9,30€",
+       "productId": 10154
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 13.0,
+       "txtPrice": "13,00€",
+       "productId": 10185
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 21.6,
+       "txtPrice": "21,60€",
+       "productId": 10216
+      }
+     ],
+     "image": "assets/productos/10154.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-18",
+     "name": "Cuatro Quesos",
+     "description": "Tomate especiado, mozzarella, gouda, emmental y roqueford",
+     "allergens": [
+      "gluten",
+      "soja",
+      "lacteos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 9.3,
+       "txtPrice": "9,30€",
+       "productId": 10155
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 13.0,
+       "txtPrice": "13,00€",
+       "productId": 10186
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 21.6,
+       "txtPrice": "21,60€",
+       "productId": 10217
+      }
+     ],
+     "image": "assets/productos/10155.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-19",
+     "name": "Mexicana",
+     "description": "Salsa barbacoa, carne picada, cebolla, salsa picante y emmental",
+     "allergens": [
+      "gluten",
+      "soja",
+      "lacteos",
+      "mostaza"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 8.6,
+       "txtPrice": "8,60€",
+       "productId": 10156
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 11.8,
+       "txtPrice": "11,80€",
+       "productId": 10187
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 20.5,
+       "txtPrice": "20,50€",
+       "productId": 10218
+      }
+     ],
+     "image": "assets/productos/10156.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-20",
+     "name": "Alemana",
+     "description": "Tomate frito, salchicha, mozzarella, cebolla crujiente y remolino de mostaza y miel",
+     "allergens": [
+      "gluten",
+      "huevos",
+      "lacteos",
+      "mostaza",
+      "sesamo"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 8.6,
+       "txtPrice": "8,60€",
+       "productId": 10157
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 11.8,
+       "txtPrice": "11,80€",
+       "productId": 10188
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 20.5,
+       "txtPrice": "20,50€",
+       "productId": 10219
+      }
+     ],
+     "image": "assets/productos/10157.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-21",
+     "name": "Catalana",
+     "description": "Base, ajo picado, tomate natural y jamón serrano",
+     "allergens": [
+      "gluten",
+      "lacteos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 8.6,
+       "txtPrice": "8,60€",
+       "productId": 10159
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 11.8,
+       "txtPrice": "11,80€",
+       "productId": 10190
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 20.5,
+       "txtPrice": "20,50€",
+       "productId": 10221
+      }
+     ],
+     "image": "assets/productos/10159.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-22",
+     "name": "Soleil",
+     "description": "Base, jamón serrano loncheado, ajo y huevo entero",
+     "allergens": [
+      "gluten",
+      "huevos",
+      "lacteos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 8.6,
+       "txtPrice": "8,60€",
+       "productId": 10160
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 11.8,
+       "txtPrice": "11,80€",
+       "productId": 10191
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 20.5,
+       "txtPrice": "20,50€",
+       "productId": 10222
+      }
+     ],
+     "image": "assets/productos/10160.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-23",
+     "name": "Toscana",
+     "description": "Base, pepperoni, pimiento verde, pimiento morrón, cebolla y bacon",
+     "allergens": [
+      "gluten",
+      "soja",
+      "lacteos",
+      "mostaza",
+      "sulfitos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 9.3,
+       "txtPrice": "9,30€",
+       "productId": 10161
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 13.0,
+       "txtPrice": "13,00€",
+       "productId": 10192
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 21.6,
+       "txtPrice": "21,60€",
+       "productId": 10223
+      }
+     ],
+     "image": "assets/productos/10161.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-24",
+     "name": "Hurricane",
+     "description": "Base, bacon, jamón serrano y huevo",
+     "allergens": [
+      "gluten",
+      "huevos",
+      "soja",
+      "lacteos",
+      "sulfitos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 9.3,
+       "txtPrice": "9,30€",
+       "productId": 10162
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 13.0,
+       "txtPrice": "13,00€",
+       "productId": 10193
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 21.6,
+       "txtPrice": "21,60€",
+       "productId": 10224
+      }
+     ],
+     "image": "assets/productos/10162.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-25",
+     "name": "Verona",
+     "description": "Base, jamón serrano, salmón y gambas",
+     "allergens": [
+      "gluten",
+      "crustaceos",
+      "pescado",
+      "lacteos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 9.3,
+       "txtPrice": "9,30€",
+       "productId": 10164
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 13.0,
+       "txtPrice": "13,00€",
+       "productId": 10195
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 21.6,
+       "txtPrice": "21,60€",
+       "productId": 10226
+      }
+     ],
+     "image": "assets/productos/10164.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-26",
+     "name": "Batello",
+     "description": "Salsa cesar, pollo, cebolla, manzana y mozzarella",
+     "allergens": [
+      "gluten",
+      "huevos",
+      "pescado",
+      "lacteos",
+      "mostaza"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 9.3,
+       "txtPrice": "9,30€",
+       "productId": 10165
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 13.0,
+       "txtPrice": "13,00€",
+       "productId": 10196
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 21.6,
+       "txtPrice": "21,60€",
+       "productId": 10227
+      }
+     ],
+     "image": "assets/productos/10165.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-27",
+     "name": "Barbacoa",
+     "description": "Salsa barbacoa, cebolla, bacon, pollo y mozzarella",
+     "allergens": [
+      "gluten",
+      "soja",
+      "lacteos",
+      "sulfitos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 9.3,
+       "txtPrice": "9,30€",
+       "productId": 10166
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 13.0,
+       "txtPrice": "13,00€",
+       "productId": 10197
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 21.6,
+       "txtPrice": "21,60€",
+       "productId": 10228
+      }
+     ],
+     "image": "assets/productos/10166.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-28",
+     "name": "Marinera",
+     "description": "Base, atún salmón, anchoas y gambas",
+     "allergens": [
+      "gluten",
+      "crustaceos",
+      "pescado",
+      "lacteos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 9.3,
+       "txtPrice": "9,30€",
+       "productId": 10167
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 13.0,
+       "txtPrice": "13,00€",
+       "productId": 10198
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 21.6,
+       "txtPrice": "21,60€",
+       "productId": 10229
+      }
+     ],
+     "image": "assets/productos/10167.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-29",
+     "name": "Pizza del Mundo Egipcia",
+     "description": "Salsa pizza, dátiles,nueces, bacon, queso gouda",
+     "allergens": [
+      "gluten",
+      "soja",
+      "lacteos",
+      "frutos_cascara",
+      "sulfitos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 9.3,
+       "txtPrice": "9,30€",
+       "productId": 10429
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 13.0,
+       "txtPrice": "13,00€",
+       "productId": 10430
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 21.6,
+       "txtPrice": "21,60€",
+       "productId": 10431
+      }
+     ],
+     "image": "assets/productos/10429.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-30",
+     "name": "Pizza del Mundo Española",
+     "description": "Alioli, tortilla, cebolla crujiente y mozarella",
+     "allergens": [
+      "gluten",
+      "huevos",
+      "lacteos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 9.3,
+       "txtPrice": "9,30€",
+       "productId": 10432
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 13.0,
+       "txtPrice": "13,00€",
+       "productId": 10433
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 21.6,
+       "txtPrice": "21,60€",
+       "productId": 10434
+      }
+     ],
+     "image": "assets/productos/10432.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-31",
+     "name": "Pizza del Mundo Italiana",
+     "description": "Salsa pizza,tomate natural,pollo, salsa pesto y mozzarella",
+     "allergens": [
+      "gluten",
+      "soja",
+      "lacteos",
+      "frutos_cascara"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 9.3,
+       "txtPrice": "9,30€",
+       "productId": 10435
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 13.0,
+       "txtPrice": "13,00€",
+       "productId": 10436
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 21.6,
+       "txtPrice": "21,60€",
+       "productId": 10437
+      }
+     ],
+     "image": "assets/productos/10435.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-32",
+     "name": "Pizza del Mundo Ranchera",
+     "description": "Salsa ranchera,bacon,cebolla crujiente y mozzarella",
+     "allergens": [
+      "gluten",
+      "huevos",
+      "lacteos",
+      "mostaza",
+      "sesamo",
+      "sulfitos"
+     ],
+     "sizes": [
+      {
+       "code": "F1",
+       "label": "26 cm",
+       "sub": "Individual",
+       "price": 9.3,
+       "txtPrice": "9,30€",
+       "productId": 10438
+      },
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 13.0,
+       "txtPrice": "13,00€",
+       "productId": 10439
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 21.6,
+       "txtPrice": "21,60€",
+       "productId": 10440
+      }
+     ],
+     "image": "assets/productos/10438.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-33",
+     "name": "Bolognesa",
+     "description": "Base y carne",
+     "allergens": [
+      "gluten",
+      "soja",
+      "lacteos",
+      "mostaza"
+     ],
+     "sizes": [
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 10.9,
+       "txtPrice": "10,90€",
+       "productId": 10177
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 18.2,
+       "txtPrice": "18,20€",
+       "productId": 10208
+      }
+     ],
+     "image": "assets/productos/10177.webp",
+     "unavailable": false
+    },
+    {
+     "id": "pizza-34",
+     "name": "Hawaina",
+     "description": "Base, york, maiz y piña",
+     "allergens": [
+      "gluten",
+      "soja",
+      "lacteos"
+     ],
+     "sizes": [
+      {
+       "code": "F3",
+       "label": "34 cm",
+       "sub": "Mediana",
+       "price": 11.8,
+       "txtPrice": "11,80€",
+       "productId": 10180
+      },
+      {
+       "code": "F5",
+       "label": "45 cm",
+       "sub": "Familiar",
+       "price": 20.5,
+       "txtPrice": "20,50€",
+       "productId": 10211
+      }
+     ],
+     "image": "assets/productos/10180.webp",
+     "unavailable": false
+    }
+   ]
+  },
+  {
+   "id": "entrantes",
+   "name": "Entrantes",
+   "emoji": "🍤",
+   "image": null,
+   "type": "simple",
+   "items": [
+    {
+     "id": "p-10409",
+     "name": "Alitas de Pollo Barbacoa",
+     "description": "",
+     "price": 5.4,
+     "txtPrice": "5,40€",
+     "allergens": [],
+     "image": "assets/productos/10409.webp",
+     "unavailable": false,
+     "productId": 10409
+    },
+    {
+     "id": "p-20004",
+     "name": "Aros Cebolla.",
+     "description": "",
+     "price": 3.8,
+     "txtPrice": "3,80€",
+     "allergens": [
+      "gluten"
+     ],
+     "image": "assets/productos/20004.webp",
+     "unavailable": false,
+     "productId": 20004
+    },
+    {
+     "id": "p-10300",
+     "name": "Panecillo Chapata",
+     "description": "",
+     "price": 0.9,
+     "txtPrice": "0,90€",
+     "allergens": [
+      "gluten"
+     ],
+     "image": "assets/productos/10300.webp",
+     "unavailable": false,
+     "productId": 10300
+    },
+    {
+     "id": "p-10301",
+     "name": "Pan de Ajo",
+     "description": "",
+     "price": 1.4,
+     "txtPrice": "1,40€",
+     "allergens": [
+      "gluten",
+      "lacteos"
+     ],
+     "image": "assets/productos/10301.webp",
+     "unavailable": false,
+     "productId": 10301
+    },
+    {
+     "id": "p-10302",
+     "name": "Grissini",
+     "description": "",
+     "price": 0.4,
+     "txtPrice": "0,40€",
+     "allergens": [
+      "gluten",
+      "lacteos",
+      "sesamo"
+     ],
+     "image": "assets/productos/10302.webp",
+     "unavailable": false,
+     "productId": 10302
+    },
+    {
+     "id": "p-10303",
+     "name": "Patatas Cruisy",
+     "description": "",
+     "price": 5.1,
+     "txtPrice": "5,10€",
+     "allergens": [
+      "gluten"
+     ],
+     "image": "assets/productos/10303.webp",
+     "unavailable": false,
+     "productId": 10303
+    },
+    {
+     "id": "p-10304",
+     "name": "Patatas Rancheras",
+     "description": "Bacon, salsa ranchera, gouda gratinado",
+     "price": 8.2,
+     "txtPrice": "8,20€",
+     "allergens": [
+      "gluten",
+      "huevos",
+      "soja",
+      "lacteos",
+      "mostaza",
+      "sesamo",
+      "sulfitos"
+     ],
+     "image": "assets/productos/10304.webp",
+     "unavailable": false,
+     "productId": 10304
+    },
+    {
+     "id": "p-10307",
+     "name": "Medallones Camembert",
+     "description": "",
+     "price": 5.4,
+     "txtPrice": "5,40€",
+     "allergens": [
+      "gluten",
+      "lacteos"
+     ],
+     "image": "assets/productos/10307.webp",
+     "unavailable": false,
+     "productId": 10307
+    },
+    {
+     "id": "p-10306",
+     "name": "Nuggets Pollo",
+     "description": "",
+     "price": 4.2,
+     "txtPrice": "4,20€",
+     "allergens": [
+      "gluten",
+      "soja",
+      "apio"
+     ],
+     "image": "assets/productos/10306.webp",
+     "unavailable": false,
+     "productId": 10306
+    },
+    {
+     "id": "p-10296",
+     "name": "Queso Provolone",
+     "description": "",
+     "price": 6.9,
+     "txtPrice": "6,90€",
+     "allergens": [
+      "lacteos"
+     ],
+     "image": "assets/productos/10296.webp",
+     "unavailable": false,
+     "productId": 10296
+    },
+    {
+     "id": "p-10038",
+     "name": "Tabla de Quesos",
+     "description": "",
+     "price": 9.7,
+     "txtPrice": "9,70€",
+     "allergens": [
+      "lacteos"
+     ],
+     "image": "assets/productos/10038.webp",
+     "unavailable": false,
+     "productId": 10038
+    },
+    {
+     "id": "p-10325",
+     "name": "Salsas",
+     "description": "SALSAS A PARTE",
+     "price": 0.0,
+     "txtPrice": "0,00€",
+     "allergens": [],
+     "image": "assets/productos/10325.webp",
+     "unavailable": false,
+     "productId": 10325
+    }
+   ]
+  },
+  {
+   "id": "ensaladas",
+   "name": "Ensaladas",
+   "emoji": "🥗",
+   "image": "assets/cat-ensaladas.webp",
+   "type": "simple",
+   "items": [
+    {
+     "id": "p-10260",
+     "name": "Caprichosa",
+     "description": "Lechuga, remolacha, atún, maiz, esparragos y aceitunas negras",
+     "price": 9.4,
+     "txtPrice": "9,40€",
+     "allergens": [
+      "pescado"
+     ],
+     "image": "assets/productos/10260.webp",
+     "unavailable": false,
+     "productId": 10260
+    },
+    {
+     "id": "p-10261",
+     "name": "Mixta",
+     "description": "Lechuga, tomate, atún y maiz",
+     "price": 8.1,
+     "txtPrice": "8,10€",
+     "allergens": [
+      "pescado"
+     ],
+     "image": "assets/productos/10261.webp",
+     "unavailable": false,
+     "productId": 10261
+    },
+    {
+     "id": "p-10262",
+     "name": "Tropical",
+     "description": "Lechuga, tomate, gouda, piña, manzana, kiwi, salsa rosa",
+     "price": 9.4,
+     "txtPrice": "9,40€",
+     "allergens": [
+      "lacteos"
+     ],
+     "image": "assets/productos/10262.webp",
+     "unavailable": false,
+     "productId": 10262
+    },
+    {
+     "id": "p-10263",
+     "name": "De Quesos",
+     "description": "Lechuga, tomate, nueces, dados de queso, emmental y salsa de queso",
+     "price": 9.1,
+     "txtPrice": "9,10€",
+     "allergens": [
+      "lacteos",
+      "frutos_cascara"
+     ],
+     "image": "assets/productos/10263.webp",
+     "unavailable": false,
+     "productId": 10263
+    },
+    {
+     "id": "p-10264",
+     "name": "Natural",
+     "description": "Lechuga, tomate, zanahoria, atún, esparragos, huevo, delicias de mar y salsa rosa",
+     "price": 9.7,
+     "txtPrice": "9,70€",
+     "allergens": [
+      "huevos",
+      "pescado",
+      "lacteos"
+     ],
+     "image": "assets/productos/10264.webp",
+     "unavailable": false,
+     "productId": 10264
+    },
+    {
+     "id": "p-10265",
+     "name": "Tricolor",
+     "description": "Pasta espiral, tomate, maiz, york, atún, remolacha, delicias de mar y salsa rosa",
+     "price": 9.7,
+     "txtPrice": "9,70€",
+     "allergens": [
+      "gluten",
+      "huevos",
+      "pescado"
+     ],
+     "image": "assets/productos/10265.webp",
+     "unavailable": false,
+     "productId": 10265
+    },
+    {
+     "id": "p-10266",
+     "name": "Nostra",
+     "description": "Lechuga, tomate, zanahoria, atún, maiz, espárragos, huevo, delicias de mar y aceitunas negras",
+     "price": 9.7,
+     "txtPrice": "9,70€",
+     "allergens": [
+      "huevos",
+      "pescado"
+     ],
+     "image": "assets/productos/10266.webp",
+     "unavailable": false,
+     "productId": 10266
+    },
+    {
+     "id": "p-10267",
+     "name": "César",
+     "description": "Lechuga, pollo, queso gouda, picatostes, manzana y salsa cesar",
+     "price": 9.6,
+     "txtPrice": "9,60€",
+     "allergens": [
+      "gluten",
+      "huevos",
+      "pescado",
+      "lacteos"
+     ],
+     "image": "assets/productos/10267.webp",
+     "unavailable": false,
+     "productId": 10267
+    },
+    {
+     "id": "p-10268",
+     "name": "Griega",
+     "description": "Variado de lechuga, queso gouda, nueces, anchoas, huevo, picatostes, manzana y salsa de yogur",
+     "price": 9.6,
+     "txtPrice": "9,60€",
+     "allergens": [
+      "gluten",
+      "huevos",
+      "pescado",
+      "lacteos",
+      "frutos_cascara"
+     ],
+     "image": "assets/productos/10268.webp",
+     "unavailable": false,
+     "productId": 10268
+    },
+    {
+     "id": "p-10269",
+     "name": "Crunch",
+     "description": "Lechuga variada, tomate, queso en dados, manzana, cebolla crujiente, kikos y salsa huracán",
+     "price": 9.6,
+     "txtPrice": "9,60€",
+     "allergens": [
+      "gluten",
+      "huevos",
+      "lacteos",
+      "mostaza"
+     ],
+     "image": "assets/productos/10269.webp",
+     "unavailable": false,
+     "productId": 10269
+    },
+    {
+     "id": "p-10412",
+     "name": "Burrata Verde",
+     "description": "Lechuga variada, tomate, burrata, nueces y salsa pesto",
+     "price": 9.6,
+     "txtPrice": "9,60€",
+     "allergens": [
+      "lacteos",
+      "frutos_cascara"
+     ],
+     "image": "assets/productos/10412.webp",
+     "unavailable": false,
+     "productId": 10412
+    },
+    {
+     "id": "p-10413",
+     "name": "Burrata Rosado",
+     "description": "Lechuga variada, tomate, burrata, nueces y mermelada de frambuesa",
+     "price": 9.6,
+     "txtPrice": "9,60€",
+     "allergens": [
+      "lacteos",
+      "frutos_cascara"
+     ],
+     "image": "assets/productos/10413.webp",
+     "unavailable": false,
+     "productId": 10413
+    }
+   ]
+  },
+  {
+   "id": "pastas",
+   "name": "Pastas",
+   "emoji": "🍝",
+   "image": "assets/cat-2.webp",
+   "type": "simple",
+   "items": [
+    {
+     "id": "p-10282",
+     "name": "Salsa Arrabiata",
+     "description": "Tomate chorizo y cayena",
+     "price": 9.3,
+     "txtPrice": "9,30€",
+     "allergens": [],
+     "image": "assets/productos/10282.webp",
+     "unavailable": false,
+     "productId": 10282
+    },
+    {
+     "id": "p-10283",
+     "name": "Salsa Pesto",
+     "description": "Albahaca, aceite de oliva, queso parmesano y piñones",
+     "price": 9.6,
+     "txtPrice": "9,60€",
+     "allergens": [
+      "lacteos"
+     ],
+     "image": "assets/productos/10283.webp",
+     "unavailable": false,
+     "productId": 10283
+    },
+    {
+     "id": "p-10284",
+     "name": "Salsa Boletus",
+     "description": "Nata, cebolla y boletus edulis",
+     "price": 9.6,
+     "txtPrice": "9,60€",
+     "allergens": [
+      "lacteos",
+      "apio"
+     ],
+     "image": "assets/productos/10284.webp",
+     "unavailable": false,
+     "productId": 10284
+    },
+    {
+     "id": "p-10285",
+     "name": "Salsa 4 Quesos",
+     "description": "Queso azul, emmental, gorgonzola, nata, mantequilla y brandy",
+     "price": 9.3,
+     "txtPrice": "9,30€",
+     "allergens": [
+      "lacteos"
+     ],
+     "image": "assets/productos/10285.webp",
+     "unavailable": false,
+     "productId": 10285
+    },
+    {
+     "id": "p-10286",
+     "name": "Salsa Boloñesa + Emmental",
+     "description": "Tomate, especias, carne picada de vacuno y cerdo",
+     "price": 9.6,
+     "txtPrice": "9,60€",
+     "allergens": [
+      "lacteos",
+      "apio"
+     ],
+     "image": "assets/productos/10286.webp",
+     "unavailable": false,
+     "productId": 10286
+    },
+    {
+     "id": "p-10287",
+     "name": "Salsa Carborana",
+     "description": "Nata, huevo, mantequilla y bacon",
+     "price": 9.6,
+     "txtPrice": "9,60€",
+     "allergens": [
+      "huevos",
+      "lacteos"
+     ],
+     "image": "assets/productos/10287.webp",
+     "unavailable": false,
+     "productId": 10287
+    },
+    {
+     "id": "p-10288",
+     "name": "Solo Tomate",
+     "description": "",
+     "price": 8.2,
+     "txtPrice": "8,20€",
+     "allergens": [],
+     "image": "assets/productos/10288.webp",
+     "unavailable": false,
+     "productId": 10288
+    }
+   ]
+  },
+  {
+   "id": "lasana",
+   "name": "Lasaña",
+   "emoji": "🧀",
+   "image": null,
+   "type": "simple",
+   "items": [
+    {
+     "id": "p-10270",
+     "name": "Lasaña Ternera",
+     "description": "",
+     "price": 9.4,
+     "txtPrice": "9,40€",
+     "allergens": [
+      "gluten",
+      "huevos",
+      "lacteos"
+     ],
+     "image": "assets/productos/10270.webp",
+     "unavailable": false,
+     "productId": 10270
+    },
+    {
+     "id": "p-10271",
+     "name": "Lasaña Vegetal",
+     "description": "",
+     "price": 9.4,
+     "txtPrice": "9,40€",
+     "allergens": [
+      "gluten",
+      "huevos",
+      "lacteos"
+     ],
+     "image": "assets/productos/10271.webp",
+     "unavailable": false,
+     "productId": 10271
+    },
+    {
+     "id": "p-10273",
+     "name": "Lasaña Salmón",
+     "description": "",
+     "price": 11.4,
+     "txtPrice": "11,40€",
+     "allergens": [
+      "gluten",
+      "crustaceos",
+      "huevos",
+      "pescado",
+      "lacteos"
+     ],
+     "image": "assets/productos/10273.webp",
+     "unavailable": false,
+     "productId": 10273
+    },
+    {
+     "id": "p-10274",
+     "name": "Lasaña de Pollo",
+     "description": "",
+     "price": 9.4,
+     "txtPrice": "9,40€",
+     "allergens": [
+      "gluten",
+      "huevos",
+      "lacteos",
+      "sulfitos"
+     ],
+     "image": "assets/productos/10274.webp",
+     "unavailable": false,
+     "productId": 10274
+    }
+   ]
+  },
+  {
+   "id": "platos-especiales",
+   "name": "Platos especiales",
+   "emoji": "⭐",
+   "image": "assets/cat-3.webp",
+   "type": "simple",
+   "items": [
+    {
+     "id": "p-10289",
+     "name": "Berenjena Rellena",
+     "description": "Carne, bechamel y queso gratinado",
+     "price": 6.8,
+     "txtPrice": "6,80€",
+     "allergens": [
+      "lacteos",
+      "apio"
+     ],
+     "image": "assets/productos/10289.webp",
+     "unavailable": false,
+     "productId": 10289
+    },
+    {
+     "id": "p-10125",
+     "name": "Musaka",
+     "description": "Salsa bolognesa, bechamel y queso gratinado sobre cama de patatas y berenjenas",
+     "price": 11.8,
+     "txtPrice": "11,80€",
+     "allergens": [
+      "gluten",
+      "huevos",
+      "lacteos",
+      "apio"
+     ],
+     "image": "assets/productos/10125.webp",
+     "unavailable": false,
+     "productId": 10125
+    },
+    {
+     "id": "p-10291",
+     "name": "Gratimar",
+     "description": "Recuperamos nuestra antigua especialidad. Espaguetis o macarrones, frutos del mar bañados con una fina capa de tomate y bechamel, todo gratinado al horno",
+     "price": 9.4,
+     "txtPrice": "9,40€",
+     "allergens": [
+      "gluten",
+      "lacteos",
+      "moluscos"
+     ],
+     "image": "assets/productos/10291.webp",
+     "unavailable": false,
+     "productId": 10291
+    },
+    {
+     "id": "p-10292",
+     "name": "Hurriburguer",
+     "description": "Doble hamburguesa con jamon serrano, queso gouda, cebolla crujiente, lechuga, tomate, salsa barbacoa ahumada y patatas cruissi",
+     "price": 8.1,
+     "txtPrice": "8,10€",
+     "allergens": [
+      "gluten",
+      "lacteos"
+     ],
+     "image": "assets/productos/10292.webp",
+     "unavailable": false,
+     "productId": 10292
+    },
+    {
+     "id": "p-10293",
+     "name": "Hurrichicken",
+     "description": "Doble filete de pollo con jamon serrano, queso gouda, cebolla crujiente, lechuga, tomate, salsa barbacoa ahumada y patatas cruissi",
+     "price": 8.1,
+     "txtPrice": "8,10€",
+     "allergens": [
+      "gluten",
+      "lacteos"
+     ],
+     "image": "assets/productos/10293.webp",
+     "unavailable": false,
+     "productId": 10293
+    },
+    {
+     "id": "p-10294",
+     "name": "Mini Hurriburguer",
+     "description": "Hamburguesa con jamon serrano, queso gouda, cebolla crujiente, lechuga, tomate y salsa barbacoa ahumada",
+     "price": 4.4,
+     "txtPrice": "4,40€",
+     "allergens": [
+      "gluten",
+      "lacteos"
+     ],
+     "image": "assets/productos/10294.webp",
+     "unavailable": false,
+     "productId": 10294
+    },
+    {
+     "id": "p-10295",
+     "name": "Mini Hurrichicken",
+     "description": "Filete de pollo con jamon serrano, queso gouda, cebolla crujiente, lechuga, tomate y salsa barbacoa ahumada",
+     "price": 4.4,
+     "txtPrice": "4,40€",
+     "allergens": [
+      "gluten",
+      "lacteos"
+     ],
+     "image": "assets/productos/10295.webp",
+     "unavailable": false,
+     "productId": 10295
+    },
+    {
+     "id": "p-10314",
+     "name": "Menú Infantil",
+     "description": "",
+     "price": 4.5,
+     "txtPrice": "4,50€",
+     "allergens": [],
+     "image": "assets/productos/10314.webp",
+     "unavailable": false,
+     "productId": 10314
+    }
+   ]
+  },
+  {
+   "id": "postres",
+   "name": "Postres",
+   "emoji": "🍰",
+   "image": "assets/cat-postres.webp",
+   "type": "simple",
+   "items": [
+    {
+     "id": "p-10232",
+     "name": "Natillas Vainilla",
+     "description": "",
+     "price": 1.3,
+     "txtPrice": "1,30€",
+     "allergens": [
+      "lacteos"
+     ],
+     "image": "assets/productos/10232.webp",
+     "unavailable": false,
+     "productId": 10232
+    },
+    {
+     "id": "p-10333",
+     "name": "Natillas Chocolate",
+     "description": "",
+     "price": 1.3,
+     "txtPrice": "1,30€",
+     "allergens": [
+      "lacteos"
+     ],
+     "image": "assets/productos/10333.webp",
+     "unavailable": false,
+     "productId": 10333
+    },
+    {
+     "id": "p-10233",
+     "name": "Petit Suisse",
+     "description": "",
+     "price": 0.85,
+     "txtPrice": "0,85€",
+     "allergens": [
+      "lacteos"
+     ],
+     "image": "assets/productos/10233.webp",
+     "unavailable": false,
+     "productId": 10233
+    },
+    {
+     "id": "p-20023",
+     "name": "Tartita Kinder Bueno White",
+     "description": "",
+     "price": 3.5,
+     "txtPrice": "3,50€",
+     "allergens": [],
+     "image": "assets/productos/20023.webp",
+     "unavailable": false,
+     "productId": 20023
+    },
+    {
+     "id": "p-20024",
+     "name": "Tartita Filipinos",
+     "description": "",
+     "price": 3.5,
+     "txtPrice": "3,50€",
+     "allergens": [],
+     "image": "assets/productos/20024.webp",
+     "unavailable": false,
+     "productId": 20024
+    },
+    {
+     "id": "p-20025",
+     "name": "Tartia Kinder Bueno",
+     "description": "",
+     "price": 3.5,
+     "txtPrice": "3,50€",
+     "allergens": [],
+     "image": "assets/productos/20025.webp",
+     "unavailable": false,
+     "productId": 20025
+    },
+    {
+     "id": "p-20026",
+     "name": "Tartita Kit Kat",
+     "description": "",
+     "price": 3.5,
+     "txtPrice": "3,50€",
+     "allergens": [],
+     "image": "assets/productos/20026.webp",
+     "unavailable": false,
+     "productId": 20026
+    },
+    {
+     "id": "p-20027",
+     "name": "Tartita Tosta Rica",
+     "description": "",
+     "price": 3.5,
+     "txtPrice": "3,50€",
+     "allergens": [],
+     "image": "assets/productos/20027.webp",
+     "unavailable": false,
+     "productId": 20027
+    },
+    {
+     "id": "p-20028",
+     "name": "Tartita Orea",
+     "description": "",
+     "price": 3.5,
+     "txtPrice": "3,50€",
+     "allergens": [],
+     "image": "assets/productos/20028.webp",
+     "unavailable": false,
+     "productId": 20028
+    },
+    {
+     "id": "p-10235",
+     "name": "Coulant Chocolate",
+     "description": "",
+     "price": 3.3,
+     "txtPrice": "3,30€",
+     "allergens": [
+      "gluten",
+      "huevos",
+      "lacteos",
+      "frutos_cascara"
+     ],
+     "image": "assets/productos/10235.webp",
+     "unavailable": false,
+     "productId": 10235
+    },
+    {
+     "id": "p-10236",
+     "name": "Tarta de Queso",
+     "description": "",
+     "price": 4.0,
+     "txtPrice": "4,00€",
+     "allergens": [
+      "gluten",
+      "huevos",
+      "lacteos"
+     ],
+     "image": "assets/productos/10236.webp",
+     "unavailable": false,
+     "productId": 10236
+    },
+    {
+     "id": "p-10237",
+     "name": "Tarta de Zanahoria",
+     "description": "",
+     "price": 4.0,
+     "txtPrice": "4,00€",
+     "allergens": [
+      "gluten",
+      "huevos",
+      "lacteos",
+      "frutos_cascara"
+     ],
+     "image": "assets/productos/10237.webp",
+     "unavailable": false,
+     "productId": 10237
+    },
+    {
+     "id": "p-10238",
+     "name": "Tarta de Chocolate",
+     "description": "",
+     "price": 4.0,
+     "txtPrice": "4,00€",
+     "allergens": [
+      "huevos",
+      "soja",
+      "lacteos",
+      "frutos_cascara",
+      "sesamo"
+     ],
+     "image": "assets/productos/10238.webp",
+     "unavailable": false,
+     "productId": 10238
+    }
+   ]
+  },
+  {
+   "id": "bebidas",
+   "name": "Bebidas",
+   "emoji": "🥤",
+   "image": null,
+   "type": "simple",
+   "items": [
+    {
+     "id": "p-10001",
+     "name": "Coca Cola.",
+     "description": "",
+     "price": 2.2,
+     "txtPrice": "2,20€",
+     "allergens": [],
+     "image": "assets/productos/10001.webp",
+     "unavailable": false,
+     "productId": 10001
+    },
+    {
+     "id": "p-10005",
+     "name": "Coca Cola Zero",
+     "description": "",
+     "price": 2.2,
+     "txtPrice": "2,20€",
+     "allergens": [],
+     "image": "assets/productos/10005.webp",
+     "unavailable": false,
+     "productId": 10005
+    },
+    {
+     "id": "p-10004",
+     "name": "Coca Cola Zero Zero",
+     "description": "",
+     "price": 2.2,
+     "txtPrice": "2,20€",
+     "allergens": [],
+     "image": "assets/productos/10004.webp",
+     "unavailable": false,
+     "productId": 10004
+    },
+    {
+     "id": "p-10002",
+     "name": "Fanta Naranja",
+     "description": "",
+     "price": 2.2,
+     "txtPrice": "2,20€",
+     "allergens": [
+      "sulfitos"
+     ],
+     "image": "assets/productos/10002.webp",
+     "unavailable": false,
+     "productId": 10002
+    },
+    {
+     "id": "p-10003",
+     "name": "Fanta Limon",
+     "description": "",
+     "price": 2.2,
+     "txtPrice": "2,20€",
+     "allergens": [],
+     "image": "assets/productos/10003.webp",
+     "unavailable": false,
+     "productId": 10003
+    },
+    {
+     "id": "p-10007",
+     "name": "Nestea",
+     "description": "",
+     "price": 2.2,
+     "txtPrice": "2,20€",
+     "allergens": [],
+     "image": "assets/productos/10007.webp",
+     "unavailable": false,
+     "productId": 10007
+    },
+    {
+     "id": "p-10020",
+     "name": "Aquarius Limon",
+     "description": "",
+     "price": 2.2,
+     "txtPrice": "2,20€",
+     "allergens": [],
+     "image": "assets/productos/10020.webp",
+     "unavailable": false,
+     "productId": 10020
+    },
+    {
+     "id": "p-10021",
+     "name": "Aquarius Naranja",
+     "description": "",
+     "price": 2.2,
+     "txtPrice": "2,20€",
+     "allergens": [],
+     "image": "assets/productos/10021.webp",
+     "unavailable": false,
+     "productId": 10021
+    },
+    {
+     "id": "p-10018",
+     "name": "Zumo Melocoton",
+     "description": "",
+     "price": 1.3,
+     "txtPrice": "1,30€",
+     "allergens": [],
+     "image": "assets/productos/10018.webp",
+     "unavailable": false,
+     "productId": 10018
+    },
+    {
+     "id": "p-10019",
+     "name": "Zumo Piña",
+     "description": "",
+     "price": 1.3,
+     "txtPrice": "1,30€",
+     "allergens": [],
+     "image": "assets/productos/10019.webp",
+     "unavailable": false,
+     "productId": 10019
+    },
+    {
+     "id": "p-10009",
+     "name": "Cerveza",
+     "description": "",
+     "price": 1.4,
+     "txtPrice": "1,40€",
+     "allergens": [],
+     "image": "assets/productos/10009.webp",
+     "unavailable": false,
+     "productId": 10009
+    },
+    {
+     "id": "p-10015",
+     "name": "Sangria",
+     "description": "",
+     "price": 1.6,
+     "txtPrice": "1,60€",
+     "allergens": [],
+     "image": "assets/productos/10015.webp",
+     "unavailable": false,
+     "productId": 10015
+    },
+    {
+     "id": "p-10024",
+     "name": "Sange de Toro 1/5l.",
+     "description": "",
+     "price": 2.6,
+     "txtPrice": "2,60€",
+     "allergens": [],
+     "image": "assets/productos/10024.webp",
+     "unavailable": false,
+     "productId": 10024
+    },
+    {
+     "id": "p-10027",
+     "name": "Frizante Blanco",
+     "description": "",
+     "price": 1.5,
+     "txtPrice": "1,50€",
+     "allergens": [],
+     "image": "assets/productos/10027.webp",
+     "unavailable": false,
+     "productId": 10027
+    },
+    {
+     "id": "p-10028",
+     "name": "Frizante Rosado",
+     "description": "",
+     "price": 1.5,
+     "txtPrice": "1,50€",
+     "allergens": [],
+     "image": "assets/productos/10028.webp",
+     "unavailable": false,
+     "productId": 10028
+    },
+    {
+     "id": "p-10029",
+     "name": "Lambrusco Rosado",
+     "description": "",
+     "price": 6.0,
+     "txtPrice": "6,00€",
+     "allergens": [],
+     "image": "assets/productos/10029.webp",
+     "unavailable": false,
+     "productId": 10029
+    },
+    {
+     "id": "p-20005",
+     "name": "Lambrusco Tinto",
+     "description": "",
+     "price": 6.0,
+     "txtPrice": "6,00€",
+     "allergens": [],
+     "image": "assets/productos/20005.webp",
+     "unavailable": false,
+     "productId": 20005
+    },
+    {
+     "id": "p-20010",
+     "name": "Agua Mineral",
+     "description": "",
+     "price": 2.0,
+     "txtPrice": "2,00€",
+     "allergens": [],
+     "image": "assets/productos/20010.webp",
+     "unavailable": false,
+     "productId": 20010
+    }
+   ]
+  }
+ ]
+}
